@@ -1,0 +1,13 @@
+apt
+
+Hold a package:
+
+sudo apt-mark hold <package-name>
+
+Remove the hold:
+
+sudo apt-mark unhold <package-name>
+
+Show all packages on hold:
+
+sudo apt-mark showhold
